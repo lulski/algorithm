@@ -19,8 +19,6 @@ public class App {
             lineCount = stream.count();
             arraySize = ((Number) lineCount).intValue();
 
-            stream.
-
             try (BufferedReader in = new BufferedReader(new FileReader(fileToGet));) {
                 String strNumber;
                 int[] numbers = new int[arraySize];
